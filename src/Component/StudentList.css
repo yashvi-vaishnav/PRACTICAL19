@@ -1,0 +1,52 @@
+
+.student-list {
+  width: 90%;
+  margin: 30px auto;
+  text-align: center;
+}
+
+.student-list h2 {
+  color: darkblue;
+  font-size: 28px;
+}
+
+.student-list table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  background-color: white;
+}
+
+.student-list th {
+  background-color: blue;
+  color: white;
+}
+
+.student-list th,
+.student-list td {
+  border: 1px solid black;
+  padding: 12px;
+  text-align: center;
+}
+
+.student-list tr:nth-child(even) {
+  background-color: #e3f2fd;
+}
+
+.delete-btn {
+  padding: 8px 15px;
+  background-color: red;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.delete-btn:hover {
+  background-color: darkred;
+}
+
+.student-list p {
+  color: red;
+  font-weight: bold;
+}
